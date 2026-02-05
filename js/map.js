@@ -17,8 +17,17 @@ var cheeseSpot = L.icon({
     popupAnchor:    [-3, -76] // point from which popup should open relative to the iconAnchor
 });
 
-//making marker
-L.marker([51.5, -0.09])
-    .addTo(map)
-    .bindPopup("Cheese")
-    .openPopup();
+
+
+fetch("data/cheeses.json")
+    .then(res => res.json())
+    .then(data => {
+        data.forEach(cheese => {
+
+            L.marker([cheese.lat, cheese.lng])
+                .addTo(map)
+                .bindTooltip(cheese.name + "(" + cheese.origin + ")")
+                .openPopup();
+        });
+
+    });
