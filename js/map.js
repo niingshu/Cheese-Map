@@ -1,5 +1,5 @@
 //initializing the interactive map leaflet
-var map = L.map("cheese-world-map").setView ([51.505, -0.09], 13);
+var map = L.map("cheese-world-map")
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -17,17 +17,27 @@ var cheeseSpot = L.icon({
     popupAnchor:    [-3, -76] // point from which popup should open relative to the iconAnchor
 });
 
-
+var bounds = []
 
 fetch("data/cheeses.json")
     .then(res => res.json())
     .then(data => {
         data.forEach(cheese => {
+            bounds.push([cheese.lat, cheese.lng]);
 
             L.marker([cheese.lat, cheese.lng])
                 .addTo(map)
-                .bindTooltip(cheese.name + "(" + cheese.origin + ")")
-                .openPopup();
+                .bindTooltip(cheese.name + " (" + cheese.origin + ")")
+                .bindPopup(`
+                    <b>${cheese.name}</b><br>
+                    Origin: ${cheese.origin}<br>
+                    Milk: ${cheese.milk} <br> 
+                    More Information: <a href=${cheese.Url}> ${cheese.name}! </a>
+                `);
         });
 
+        map.fitBounds(bounds);
+
     });
+
+    
