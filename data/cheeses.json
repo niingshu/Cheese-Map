@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Graviera Naxou",
+        "origin": "Naxos Island, Greece",
+        "lat": 37.10,
+        "lng": 25.37,
+        "milk": "80% cow milk at minimum and 20% sheep and goat milk at maximum",
+        "Url": "https://en.wikipedia.org/wiki/Graviera"
+    }, 
+    {
+        "name": "Parmigiano Reggiano",
+        "origin": "Province of Parma, Italy",
+        "lat": 44.79,
+        "lng": 10.33,
+        "milk": "Raw unpasteurized cow's milk",
+        "Url": "https://en.wikipedia.org/wiki/Parmesan"
+    }, 
+    {
+        "name": "Queijo de Azeitão",
+        "origin": "Palmela, Portugal",
+        "lat": 38.56,
+        "lng": 38.56,
+        "milk": "Unpasteurized sheep milk",
+        "Url": "https://en.wikipedia.org/wiki/Queijo_de_Azeitão"
+    }, 
+    {
+        "name": "Mozzarella di Bufala Campana",
+        "origin": "Campania, Italy",
+        "lat": 40.86,
+        "lng": 14.84,
+        "milk": "Fresh, whole milk of the Italian Mediterranean water buffalo (Bubalus bubalis)",
+        "Url": "https://en.wikipedia.org/wiki/Buffalo_mozzarella"
+    }, 
+    {
+        "name": "Graviera Kristis",
+        "origin": "Crete, Greece",
+        "lat": 35.24,
+        "lng": 24.81,
+        "milk": "Sheep's milk or a mixture of sheep's and up to 20% goat milk",
+        "Url": "https://en.wikipedia.org/wiki/Graviera"
+    }, 
+    {
+        "name": "Queijo Serra da Estrela",
+        "origin": "Serra da Estrela, Portugal",
+        "lat": 40.19,
+        "lng": 7.36,
+        "milk": "Milk of Bordaleira Serra da Estrela and Churra Mondegueira breeds of sheep",
+        "Url": "https://pt.wikipedia.org/wiki/Queijo_Serra_da_Estrela"
+    },
+    {
+        "name": "Pecorino Sardo",
+        "origin": "Sardinia, Italy",
+        "lat": 38.51,
+        "lng": 41.18,
+        "milk": "Sheep milk, specifically from the milk of the local Sadra sheep",
+        "Url": "https://en.wikipedia.org/wiki/Pecorino_sardo"
+    },
+    {
+        "name": "Kefalograviera",
+        "origin": "Epirus, Greece",
+        "lat": 39.36,
+        "lng": 20.48,
+        "milk": "Sheep's milk or a mixture of sheep's and goat's milk",
+        "Url": "https://en.wikipedia.org/wiki/Kefalograviera"
+    },
+    {
+        "name": "Burrata",
+        "origin": "Apulia, Italy",
+        "lat": 40.98,
+        "lng": 16.62,
+        "milk": "Italian cow's milk (occasionally buffalo milk)",
+        "Url": "https://en.wikipedia.org/wiki/Burrata"
+    },
+    {
+        "name": "Saint-Félicien",
+        "origin": "Rhône-Alpes, France",
+        "lat": 45.22,
+        "lng": 5.14,
+        "milk": "Pasteurizede or raw cow's milk",
+        "Url": "https://en.wikipedia.org/wiki/Saint-Félicien_cheese"
+    }
+]
