@@ -24,10 +24,23 @@
         }
 
     </style>
+
+    <link rel = "stylesheet" href="style/style.css">
 </head>
 
 <body> 
-    <h1 id = "title", style="text-align: center;">Cheeses of World Map</h1>
+    <h1 id = "title" style="text-align: center;">Cheeses of World Map</h1>
+
+    <div id="cheeseSidePanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closePanel()">&times;</a>
+        <a href="name">Name</a>
+        <a href="origin">Origin</a>
+        <a href="summary">Summary</a>
+        <a href="more">More Information</a>
+    </div>
+
+    <button class="openbtn" onclick="openPanel()">&#9776; Toggle Sidepanel</button>
+
     <div id = "cheese-world-map"></div>
 
     <!-- leaflet javascript after leaflet's css-->
@@ -36,6 +49,7 @@
     crossorigin=""></script>
 
     <script src = "js/map.js"></script>
+    <script src = "js/panel.js"></script>
 
 </body>
 

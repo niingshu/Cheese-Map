@@ -1,3 +1,5 @@
+import {openPanel, closePanel} from  "./panel.js"
+
 //initializing the interactive map leaflet
 var map = L.map("cheese-world-map")
 
@@ -31,7 +33,7 @@ fetch("data/cheeses.json")
                 .bindPopup(`
                     <b>${cheese.name}</b><br>
                     Origin: ${cheese.origin}<br>
-                    Milk: ${cheese.milk} <br> 
+                    Made From: ${cheese.milk} <br> 
                     More Information: <a href=${cheese.Url}> ${cheese.name}! </a>
                 `);
         });
@@ -39,5 +41,15 @@ fetch("data/cheeses.json")
         map.fitBounds(bounds);
 
     });
+
+const sidePanel = document.getElementById('cheeseSidePanel');
+
+function onCheeseClick(e) {
+    sidePanel.getAttribute('name') 
+
+}
+
+marker.on('click, onCheeseClick');
+
 
     
