@@ -35,6 +35,7 @@ fetch("data/cheeses.json")
                     Origin: ${cheese.origin}<br>
                     Rating: ${cheese.rating} <br>
                     Made From: ${cheese.milk} <br> 
+                    Maybe you haven't know this: ${cheese.fun} <br> 
                     More Information: <a href=${cheese.Url}> ${cheese.name}! </a>
                 `);
 
@@ -54,6 +55,8 @@ function onCheeseClick(chosenCheese) {
     document.getElementById('name').textContent = chosenCheese.name;
     document.getElementById('origin').textContent = chosenCheese.origin;
     document.getElementById('summary').textContent = chosenCheese.milk;
+    document.getElementById('rating').textContent = chosenCheese.rating;
+    document.getElementById('fun_fact').textContent = chosenCheese.fun;
     document.getElementById('more').textContent = "Read more about " + chosenCheese.name;
     document.getElementById('more').setAttribute('href', targetUrl);
 
