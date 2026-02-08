@@ -33,6 +33,7 @@ fetch("data/cheeses.json")
                 .bindPopup(`
                     <b>${cheese.name}</b><br>
                     Origin: ${cheese.origin}<br>
+                    Rating: ${cheese.rating} <br>
                     Made From: ${cheese.milk} <br> 
                     More Information: <a href=${cheese.Url}> ${cheese.name}! </a>
                 `);
