@@ -25,11 +25,11 @@
 
     </style>
 
-    <link rel = "stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body> 
-    <h1 id = "title" style="text-align: center;">Cheeses of World Map</h1>
+    <h1 id="title" class="map-titles" style="text-align: center;">Cheeses of World Map</h1>
 
     <div id="cheeseSidePanel" class="sidepanel">
         <a href="javascript:void(0)" class="closebtn" onclick="closePanel()">&times;</a>
@@ -42,6 +42,14 @@
     </div>
 
     <button class="openbtn" onclick="openPanel()">&#9776; Open Left Panel</button>
+
+    <div class="button">
+        <a class="backgroundbtn">
+            <span class="icon">
+                <img src="images/lightbulb.png" id="changebackground">
+            </span>
+        </a>
+    </div>
 
     <div id = "cheese-world-map"></div>
 

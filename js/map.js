@@ -4,8 +4,9 @@ import { openPanel } from "./panel.js";
 var map = L.map("cheese-world-map")
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(map);
+
 
 //making cheese marker
 var cheeseSpot = L.icon({
