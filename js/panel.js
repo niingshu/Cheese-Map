@@ -1,9 +1,11 @@
 //set the width of the side bar to 250px (to show it)
-function openPanel() {
-    document.getElementById('cheeseSidePanel').style.width = "250px";
+export function openPanel() {
+    document.getElementById('cheeseSidePanel').style.width = "300px";
 }
+window.openPanel = openPanel; //visible to html
 
 //set the width of the sidebar to 0
-function closePanel() {
+export function closePanel() {
     document.getElementById('cheeseSidePanel').style.width = "0";
 }
+window.closePanel = closePanel;

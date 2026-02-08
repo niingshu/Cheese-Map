@@ -33,13 +33,13 @@
 
     <div id="cheeseSidePanel" class="sidepanel">
         <a href="javascript:void(0)" class="closebtn" onclick="closePanel()">&times;</a>
-        <a href="name">Name</a>
-        <a href="origin">Origin</a>
-        <a href="summary">Summary</a>
-        <a href="more">More Information</a>
+        <p id="name">Name</p>
+        <p id="origin">Origin</p>
+        <p id="summary">Summary</p>
+        <a id="more" href="#" target="_blank">More Information</a>
     </div>
 
-    <button class="openbtn" onclick="openPanel()">&#9776; Toggle Sidepanel</button>
+    <button class="openbtn" onclick="openPanel()">&#9776; Open Left Panel</button>
 
     <div id = "cheese-world-map"></div>
 
@@ -48,8 +48,8 @@
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
     crossorigin=""></script>
 
-    <script src = "js/map.js"></script>
-    <script src = "js/panel.js"></script>
+    <script type="module" src="js/map.js"></script> <!--js runs as a module-->
+    <!--in module variables/functions stay inside file-->
 
 </body>
 
