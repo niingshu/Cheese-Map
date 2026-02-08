@@ -30,15 +30,7 @@ fetch("data/cheeses.json")
 
             var marker = L.marker([cheese.lat, cheese.lng], {icon: cheeseSpot})
                 .addTo(map)
-                .bindTooltip(cheese.name + " (" + cheese.origin + ")")
-                .bindPopup(`
-                    <b>${cheese.name}</b><br>
-                    Origin: ${cheese.origin}<br>
-                    Rating: ${cheese.rating} <br>
-                    Made From: ${cheese.milk} <br> 
-                    Maybe you haven't know this: ${cheese.fun} <br> 
-                    More Information: <a href=${cheese.Url}> ${cheese.name}! </a>
-                `);
+                .bindTooltip(cheese.name + " (" + cheese.origin + ")");
 
             marker.on('click', () => {
                 onCheeseClick(cheese);
@@ -53,16 +45,22 @@ function onCheeseClick(chosenCheese) {
     console.log("clicked:", chosenCheese);
     const targetUrl = chosenCheese.Url;
 
-    document.getElementById('name').textContent = chosenCheese.name;
-    document.getElementById('origin').textContent = chosenCheese.origin;
-    document.getElementById('summary').textContent = chosenCheese.milk;
-    document.getElementById('rating').textContent = chosenCheese.rating;
-    document.getElementById('fun_fact').textContent = chosenCheese.fun;
+    document.getElementById('name').textContent = "Name: " + chosenCheese.name;
+    document.getElementById('origin').textContent = "Origin: " + chosenCheese.origin;
+    document.getElementById('summary').textContent = "Made of: " + chosenCheese.milk;
+    document.getElementById('rating').textContent = "Rating: " + chosenCheese.rating;
+    document.getElementById('fun_fact').textContent = "Maybe you haven't known: " + chosenCheese.fun;
     document.getElementById('more').textContent = "Read more about " + chosenCheese.name;
     document.getElementById('more').setAttribute('href', targetUrl);
 
     openPanel();
 }
+
+//get the modal
+var modal = document.getElementById("cheeseSidePanel");
+
+var img = document.getElementById("showimg");
+var modalImg = document.getEl
 
 
 

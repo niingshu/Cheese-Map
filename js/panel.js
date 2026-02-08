@@ -1,6 +1,6 @@
 //set the width of the side bar to 250px (to show it)
 export function openPanel() {
-    document.getElementById('cheeseSidePanel').style.width = "300px";
+    document.getElementById('cheeseSidePanel').style.width = "380px";
 }
 window.openPanel = openPanel; //visible to html
 

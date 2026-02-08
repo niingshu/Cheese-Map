@@ -1,3 +1,4 @@
+
 /*Leaflet night/dark mode*/
 .leaflet-layer,
 .leaflet-control-zoom-in,
@@ -13,8 +14,8 @@
     position: fixed; /*stay in place*/
     z-index: 1000; /*stay on top*/
     top: 0;
-    left: 0;
-    background-color: #111; /*black*/
+    right: 0; /*show the panel on the right*/
+    background-color: white; /*black*/
     overflow-x: hidden; /*disable horizontal scroll*/
     padding-top: 60px; /*placed content 60px from the top*/
     transition: 0.5s; /*0.5 second transition effect to slide in side panel*/
@@ -30,9 +31,19 @@
   transition: 0.3s;
 }
 
+/*display the text within the panel*/
+.sidepanel a, .sidepanel p { 
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3;
+}
+
 /* When you mouse over the navigation links, change their color */
 .sidepanel a:hover {
-  color: #f1f1f1;
+  color: #1a1a1a;
 }
 
 /* Position and style the close button (top right corner) */
@@ -42,6 +53,8 @@
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+  text-decoration: none;
+  color: rgb(43, 43, 43);
 }
 
 /* Style the button that is used to open the sidepanel */
