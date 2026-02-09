@@ -32,7 +32,9 @@ var highlightCheese = L.icon({
     popupAnchor:    [-3*1.5, -20*1.5]
 });
 
-var selectedCheese = null; //needs update selected cheese
+var selectedMarker = null; //the marker that is selected
+
+var selectedCheese = null; //the cheese that is selected
 
 var bounds = []
 
@@ -59,24 +61,28 @@ fetch("data/cheeses.json")
     });
 
 function onCheeseClick(chosenCheese, marker) {
-    var clickedCheese = marker;
+    var clickedMarker = marker;
 
-    if (selectedCheese && selectedCheese !== clickedCheese) {
-        selectedCheese.setIcon(cheeseSpot);
+    if (selectedMarker && selectedMarker !== clickedMarker) {
+        selectedMarker.setIcon(cheeseSpot);
     }
 
     //set clicked marker's icon to highlight
-    clickedCheese.setIcon(highlightCheese);
+    clickedMarker.setIcon(highlightCheese);
 
     //update the selected marker reference
-    selectedCheese = clickedCheese;
+    selectedMarker = clickedMarker;
+    selectedCheese = chosenCheese
     
+    cheesePanel(selectedCheese); //passing in the selected cheese
+}
+
+function cheesePanel(chosenCheese) {
     const targetUrl = chosenCheese.Url;
-
-    document.getElementById('name').textContent = chosenCheese.name;
-
     //show image
     document.getElementById('cheeseImage').src = chosenCheese.img;
+
+    document.getElementById('name').textContent = chosenCheese.name;
 
     document.getElementById('origin').textContent = "Origin: " + chosenCheese.origin;
     document.getElementById('rating').textContent = "Rating: " + chosenCheese.rating + "/5";
@@ -100,21 +106,71 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });
 
 function onCheeseClose() {
-    if (selectedCheese) {
-        selectedCheese.setIcon(cheeseSpot);
+    if (selectedMarker) {
+        selectedMarker.setIcon(cheeseSpot);
+        selectedMarker = null;
         selectedCheese = null;
     }
     closePanel();
 }
 
+//reset marker icon and close popup panel when clicked on map
 map.on('click', () => {
-    if (selectedCheese) {
-        selectedCheese.setIcon(cheeseSpot);
+    if (selectedMarker) {
+        selectedMarker.setIcon(cheeseSpot);
+        selectedMarker = null;
         selectedCheese = null;
     }
     closePanel();
 });
 
+//fetch information of cheese from json to search bar 
+let allData = []
+const searchInput = document.getElementById('searchInput');
+const resultsList = document.getElementById('resultList');
+
+searchInput.addEventListener('input', (e) => {
+    const query = e.target.value.toLowerCase().trim(); //.trim() removes extra spaces
+    
+    //clear result every time use types
+    resultsList.innerHTML = ''; 
+
+    if (query.length === 0) return;
+
+    //only run the filter if there is actual text in input 
+    const filteredData = allData.filter(item => 
+        item.name.toLowerCase().includes(query)
+    );
+
+    displayData(filteredData);
+});
+
+//function to fetch json data
+async function fetchCheesesData() {
+    try {
+        const response = await fetch('data/cheeses.json');
+        allData = await response.json();
+        //do not display all initial data (only show when user search)
+    } catch (error) {
+        console.error("Error fetching data: ", error);
+    }
+}
+
+//function to display data in the list 
+function displayData(dataToDisplay) {
+    resultsList.innerHTML = '';
+
+    dataToDisplay.forEach(item => {
+        const li = document.createElement('li');
+        //customize what to display from each JSON
+        li.classList.add('result-item'); //for styling
+        li.innerHTML = item.name; //not sure
+        resultsList.appendChild(li);
+    });
+}
+
+//initialize by fetching the data when scip loads 
+fetchCheesesData();
 
 
 

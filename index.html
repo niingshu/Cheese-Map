@@ -14,12 +14,13 @@
     <style> 
         body {
             margin: 0;
-            background-color: rgb(225, 227, 221);
+            background-color: rgb(211, 216, 221);
+            font-family: sans-serif;
         }
 
         #cheese-world-map {
             position: absolute;
-            top: 0;
+            top: 70px;
             bottom: 0;
             width: 100%;
         }
@@ -30,17 +31,21 @@
 </head>
 
 <body> 
-    <h1 id="title" class="map-titles" style="text-align: center;">Cheeses of World Map</h1>
+    <h1 id="title" class="map-titles">Cheeses of World Map</h1>
+
+    <div class="search">
+        <input type="text" id="searchInput" placeholder="Search for cheeses...">
+        <ul id="resultList"></ul>
+    </div>
 
     <div id="cheeseSidePanel" class="sidepanel">
 
         <a href="javascript:void(0)" id="closebtn" class="closebtn">&times;</a>
-        
-        <p id="name" class="name">Name</p>
 
         <!-- img at the top -->
         <img id="cheeseImage" src="" alt="Cheese Image" class="panel-image">
 
+        <p id="name" class="name">Name</p>
         <p id="origin">Origin</p>
         <p id="rating">Rating</p>
 
@@ -49,8 +54,6 @@
         <p id="summary">Summary</p>
         <a id="more" href="#" target="_blank">More Information</a>
     </div>
-
-    <button class="openbtn" onclick="openPanel()">&#9776; Open Left Panel</button>
     
     <div id = "cheese-world-map"></div>
 

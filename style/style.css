@@ -7,6 +7,44 @@
   filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
 }
 
+.map-titles {
+    text-align: center;
+    color:rgb(17, 37, 55);
+}
+
+.search {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 260px;
+    z-index: 1000; /*stay above the map*/
+}
+
+#searchInput {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#resultList {
+    list-style-type: none;
+    background-color: #e9e8e8;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ddd;
+}
+
+#resultsList li:last-child {
+    border-bottom: none;
+}
+
+#resultList li:hover {
+    background-color: #fbf9f9;
+    font-weight: bold;
+}
+
 /*The sidepanel menu*/
 .sidepanel {
     width: 0;
@@ -15,6 +53,8 @@
     z-index: 1000; /*stay on top*/
     top: 0;
     right: 0; /*show the panel on the right*/
+    margin-top: 70px;
+    border-radius: 6px;
     background-color: white; /*black*/
     overflow-x: hidden; /*disable horizontal scroll*/
     overflow-y: scroll;
@@ -28,7 +68,6 @@
     filter: drop-shadow(0px 0px 10px rgba(243, 29, 29, 0.5));
 }
 
-
 /* The sidepanel links */
 .sidepanel a {
   padding: 8px 8px 8px 32px;
@@ -40,11 +79,11 @@
 }
 
 .sidepanel .name {
-    padding: 0px 5px 0px 20px;
+    padding: 0px 0px 0px 20px;
     color: #181818;
     font-weight: bold;
     text-decoration: antiquewhite;
-    font-size: 25px;
+    font-size: 27px;
 }
 
 /*display the text within the panel*/
