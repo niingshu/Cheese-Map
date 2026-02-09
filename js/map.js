@@ -14,7 +14,7 @@ var cheeseSpot = L.icon({
     iconUrl: 'images/cheese.png',
     shadowUrl: null,
 
-    iconSize:       [17, 37], //size of the icon
+    iconSize:       [25, 37], //size of the icon
     shadowSize:     [30, 60], //size of the shadow
     iconAnchor:     [9, 29], //point of the icon which correspond to marker's location 
     shadowAnchor:   [4, 62], //same for shadow
@@ -25,9 +25,9 @@ var highlightCheese = L.icon({
     iconUrl: 'images/chosenCheese.png',
     shadowUrl: null,
 
-    iconSize:       [15*1.5, 30*1.5], 
+    iconSize:       [25*1.5, 30*1.5], 
     shadowSize:     [30, 60], 
-    iconAnchor:     [13*1.5, 25*1.5], 
+    iconAnchor:     [15*1.5, 25*1.5], 
     shadowAnchor:   [4, 62], 
     popupAnchor:    [-3*1.5, -20*1.5]
 });
@@ -48,6 +48,9 @@ fetch("data/cheeses.json")
 
             marker.on('click', () => {
                 onCheeseClick(cheese, marker);
+                
+                //smooth animated pan and zoom
+                map.flyTo(marker.getLatLng(), 6);
             });
         });
 
