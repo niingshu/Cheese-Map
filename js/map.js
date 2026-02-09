@@ -109,6 +109,7 @@ map.on('click', () => {
         selectedCheese.setIcon(cheeseSpot);
         selectedCheese = null;
     }
+    closePanel();
 });
 
 
