@@ -8,7 +8,7 @@
         "fun": "Graviera Naxou was inspired by the Swiss Gruyère",
         "content": "Cow's milk (at least 80%) with addition of sheep and goat's milk (up to 20%)",
         "Url": "https://www.tasteatlas.com/graviera-naxou",
-        "img": "/images/cheeses/gravNaxou.png"
+        "img": "./images/cheeses/gravNaxou.png"
     },
     {
         "name":"Parmigiano Reggiano",
@@ -19,7 +19,7 @@
         "fun": "Parmigiano Reggiano is officially considered a 'space food', chosen by both NASA and Russian space programs for astronaut diets",
         "content": "100% natural, raw, cow's milk cheese",
         "Url": "https://www.tasteatlas.com/parmigiano-reggiano" ,
-        "img": "/images/cheeses/parmigianoReg.jpg"
+        "img": "./images/cheeses/parmigianoReg.jpg"
     },
     {
         "name":"Queijo de Azeitão",
@@ -27,10 +27,10 @@
         "lat": 38.58,
         "lng": -8.90,
         "rating":"4.6",
-        "fun": "Besides the taste, one of the most unique things about Azeitão is the wild thistle rennet that is used to make the sheep's milk coagulate",
+        "fun": "Queijo de Azeitão is a rare, 100% vegetarian, creamy sheep's milk cheese",
         "content": "Unpasteurized sheep's milk",
         "Url": "https://www.tasteatlas.com/queijo-de-azeitao",
-        "img": "/images/cheeses/azeitao.jpg"
+        "img": "./images/cheeses/azeitao.jpg"
     },
     {
         "name":"Mozzarella di Bufala Campana",
@@ -41,7 +41,7 @@
         "fun": "Mozzarella di Bufala Campana DOP is protected by European law, meaning it can only be made in specific areas of southern Italy",
         "content": "made from the milk of the Italian Mediterranean buffalo",
         "Url": "https://www.tasteatlas.com/mozzarella-di-bufala-campana",
-        "img":  "/images/cheeses/mozzarella-di-bufala-campana.jpg"
+        "img":  "./images/cheeses/mozzarella-di-bufala-campana.jpg"
     },
     {
         "name":"Graviera Kritis",
@@ -52,7 +52,7 @@
         "fun": "The cheese matures for 3 to 5 months before going to market",
         "content": "Up to 20 percent goat's milk mixed with sheep's milk, and it must all come from free-range animals",
         "Url": "https://www.tasteatlas.com/graviera-kritis",
-        "img": "/images/cheeses/gravieraKritis.jpg"
+        "img": "./images/cheeses/gravieraKritis.jpg"
     },
     {
         "name":"Queijo Serra da Estrela",
@@ -63,7 +63,7 @@
         "fun": "The Serra da Estrela cheese is a recipe handed down through generations",
         "content": "Milk of Bordaleira Serra da Estrela and Churra Mondegueira breeds of sheep",
         "Url": "https://www.tasteatlas.com/queijo-serra-da-estrela" ,
-        "img": "/images/cheeses/queijoSerraDaEstrela.jpg"
+        "img": "./images/cheeses/queijoSerraDaEstrela.jpg"
     },
     {
         "name":"Pecorino Sardo",
@@ -74,7 +74,7 @@
         "fun": "The name does not derive from the capital but from history: it was the ideal food for the sustenance of the Roman army",
         "content": "100% whole sheep's milk",
         "Url": "https://www.tasteatlas.com/pecorino-sardo" ,
-        "img": "/images/cheeses/pecorinoSardo.jpg"
+        "img": "./images/cheeses/pecorinoSardo.jpg"
     },
     {
         "name":"Kefalograviera",
@@ -85,7 +85,7 @@
         "fun": "It seems to be a relatively recent innovation, the submission document from 1996 said it had only come into production “over recent decades”",
         "content": "Made with cow, goat, and sheep milk that is typically pasteurized",
         "Url": "https://www.tasteatlas.com/kefalograviera" ,
-        "img": "/images/cheeses/kefalograviera.jpg"
+        "img": "./images/cheeses/kefalograviera.jpg"
     },
     {
         "name":"Burrata",
@@ -96,7 +96,7 @@
         "fun": "Burrata is as white as mozzarella but comes with a strange narrowing at the top, like a giant dumpling",
         "content": "Italian cow's milk (occasionally buffalo milk) that is typically pasteurized or unpasteurized",
         "Url": "https://www.tasteatlas.com/burrata" ,
-        "img": "/images/cheeses/burrata.jpg"
+        "img": "./images/cheeses/burrata.jpg"
     },
     {
         "name":"Saint-Félicien",
@@ -107,7 +107,7 @@
         "fun": "It is the invention of an 80-year-old creamery just south of Lyon",
         "content": "Raw or pasteurized cow's milk",
         "Url": "https://www.tasteatlas.com/saint-felicien" ,
-        "img": "/images/cheeses/stFelicien.jpg"
+        "img": "./images/cheeses/stFelicien.jpg"
     },
     {
         "name":"Metsovone",
@@ -118,7 +118,7 @@
         "fun": "Metsovone may be made in a similar way to a smoked provolone, but the two cheeses have different tastes due to distinct cheesemaking processes",
         "content": "Made with cow, goat, or sheep milk that is typically unpasteurized",
         "Url": "https://www.tasteatlas.com/metsovone"  ,
-        "img": "/images/cheeses/metsovone.jpg"
+        "img": "./images/cheeses/metsovone.jpg"
     },
     {
         "name":"Pecorino Toscano",
@@ -129,7 +129,7 @@
         "fun": "Pecorino Romano is one of the few cheeses in the world that boasts a thousand-year history",
         "content": "100% whole sheep’s milk",
         "Url": "https://www.tasteatlas.com/pecorino-toscano" ,
-        "img": "/images/cheeses/pecorinoToscano.jpg"
+        "img": "./images/cheeses/pecorinoToscano.jpg"
     },
     {
         "name":"Saint-André",
@@ -140,7 +140,7 @@
         "fun": "Saint-André is a notoriously rich French 'triple cream' cheese with a 75% butterfat content, making it closer to butter than typical Brie",
         "content": "Made with cow milk that is typically raw",
         "Url": "https://www.tasteatlas.com/saint-andre" ,
-        "img": "/images/cheeses/saintAndré.jpg"
+        "img": "./images/cheeses/saintAndré.jpg"
     },
     {
         "name":"Pecorino Siciliano",
@@ -151,7 +151,7 @@
         "fun": "Pecorino Siciliano, one of Europe's oldest cheeses with roots in ancient Greece, is famously mentioned in Homer's Odyssey (written around the 8th Century BC)",
         "content": "raw, whole sheep's milk (ewe's milk) sourced from animals raised in Sicily",
         "Url": "https://www.tasteatlas.com/pecorino-siciliano"  ,
-        "img": "/images/cheeses/pecorinoSiciliano.jpg"
+        "img": "./images/cheeses/pecorinoSiciliano.jpg"
     },
     {
         "name":"Redykołka",
@@ -162,7 +162,7 @@
         "fun": "It is made from the leftover curds of the larger oscypek, and it is traditionally molded into intricate, decorative shapes like animals, birds, or hearts",
         "content": "Primarily made from unpasteurized sheep's milk in the Podhale region, may include up to 40% cow's milk from the Polish Red Cow breed. ",
         "Url": "https://www.tasteatlas.com/redykoka" ,
-        "img": "/images/cheeses/redykołka.jpg"
+        "img": "./images/cheeses/redykołka.jpg"
     },
     {
         "name":"Livanjski sir",
@@ -173,7 +173,7 @@
         "fun": "Livanjski sir was first produced in 1886",
         "content": "Sheep's milk, or mixture of sheep's and cow's milk",
         "Url": "https://www.tasteatlas.com/livanjski-sir"  ,
-        "img": "/images/cheeses/livanjskiSir.jpg"
+        "img": "./images/cheeses/livanjskiSir.jpg"
     },
     {
         "name":"Brillat-Savarin",
@@ -184,7 +184,7 @@
         "fun": "Brillat-Savarin is a decadent 'triple cream' French cheese with over 75% fat content, often called the 'foie gras' of cheeses",
         "content": "Made with good cow's milk",
         "Url": "https://www.tasteatlas.com/brillat-savarin"  ,
-        "img": "/images/cheeses/brillatSavarin.jpg"
+        "img": "./images/cheeses/brillatSavarin.jpg"
     },
     {
         "name":"Canastra",
@@ -195,7 +195,7 @@
         "fun": "It was the first Brazilian cheese to win an international award in France (2015)",
         "content": "cow's milk (unpasteurized)",
         "Url": "https://www.tasteatlas.com/canastra"  ,
-        "img": "/images/cheeses/canastra.jpg"
+        "img": "./images/cheeses/canastra.jpg"
     },
     {
         "name":"Gołka",
@@ -206,7 +206,7 @@
         "fun": "It is often produced in cylindrical, 'log' shapes rather than the classic spindle-shaped mold used for traditional highland cheese",
         "content": "100% goat's milk",
         "Url": "https://www.tasteatlas.com/goka"  ,
-        "img": "/images/cheeses/gołka.jpg"
+        "img": "./images/cheeses/gołka.jpg"
     },
     {
         "name":"Mont d'Or",
@@ -217,7 +217,7 @@
         "fun": "It's one of only a few French cheeses you have to eat with a spoon!",
         "content": "Unpasteurized cow's milk",
         "Url": "https://www.tasteatlas.com/mont-dor" ,
-        "img": "/images/cheeses/montdOr.jpg"
+        "img": "./images/cheeses/montdOr.jpg"
     },
     {
         "name":"Kalathaki Limnou",

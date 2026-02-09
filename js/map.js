@@ -34,7 +34,6 @@ fetch("data/cheeses.json")
 
             marker.on('click', () => {
                 onCheeseClick(cheese);
-                showImg(cheese.imgUrl);
             });
         });
 
@@ -43,45 +42,21 @@ fetch("data/cheeses.json")
     });
 
 function onCheeseClick(chosenCheese) {
-    console.log("clicked:", chosenCheese);
     const targetUrl = chosenCheese.Url;
+
+    //show image
+    document.getElementById('cheeseImage').src = chosenCheese.img;
 
     document.getElementById('name').textContent = "Name: " + chosenCheese.name;
     document.getElementById('origin').textContent = "Origin: " + chosenCheese.origin;
-    document.getElementById('summary').textContent = "Made of: " + chosenCheese.milk;
     document.getElementById('rating').textContent = "Rating: " + chosenCheese.rating;
-    document.getElementById('fun_fact').textContent = "Maybe you haven't known: " + chosenCheese.fun;
+    document.getElementById('summary').textContent = "Made From: " + chosenCheese.content;
+    document.getElementById('fun_fact').textContent = "Fun fact: " + chosenCheese.fun;
     document.getElementById('more').textContent = "Read more about " + chosenCheese.name;
     document.getElementById('more').setAttribute('href', targetUrl);
 
     openPanel();
 }
-
-//get the modal window
-var panel = document.getElementById("cheeseSidePanel");
-
-var img = document.getElementById("showimg");
-var panelImg = document.getElementById("img");
-
-img.onclick = function showImg(imgUrl) {
-    panel.style.display = "block";
-    panelImg.src = this.src.replace("/images/cheese.png", imgUrl); //imgUrl should be in json object
-}
-
-//get the <span> element that closes the modal 
-var closePanel = document.getElementsByClassName("close")[0];
-
-//when user clicks on <span> x or modal background -> close modal 
-closePanel.onlick = function closeImg() {
-    panel.style.display = "none";
-}
-
-modal.onclick = function clickModal(event) {
-    if (event.target === modal) {
-        panel.style.display = "none";
-    }
-}
-
 
 
 

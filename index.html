@@ -32,21 +32,19 @@
 <body> 
     <h1 id="title" class="map-titles" style="text-align: center;">Cheeses of World Map</h1>
 
-    <!-- Trigger the Modal (Image that the user clicks) -->
-    <img id="showimg" src="/images/cheese.png" alt="image" style="width:100%;max-width:300px">
     <div id="cheeseSidePanel" class="sidepanel">
-        <!-- Modal Content (The large image) -->
-        <img class="modal-content" id="img">
 
         <a href="javascript:void(0)" class="closebtn" onclick="closePanel()">&times;</a>
+        
+        <!-- img at the top -->
+        <img id="cheeseImage" src="" alt="Cheese Image" class="panel-image">
+
         <p id="name">Name</p>
         <p id="origin">Origin</p>
         <p id="rating">Rating</p>
         <p id="fun_fact">Fun Fact</p>
         <p id="summary">Summary</p>
         <a id="more" href="#" target="_blank">More Information</a>
-
-        <span class="close">&times;</span>
     </div>
 
     <button class="openbtn" onclick="openPanel()">&#9776; Open Left Panel</button>
