@@ -34,6 +34,7 @@ fetch("data/cheeses.json")
 
             marker.on('click', () => {
                 onCheeseClick(cheese);
+                showImg(cheese.imgUrl);
             });
         });
 
@@ -56,11 +57,30 @@ function onCheeseClick(chosenCheese) {
     openPanel();
 }
 
-//get the modal
-var modal = document.getElementById("cheeseSidePanel");
+//get the modal window
+var panel = document.getElementById("cheeseSidePanel");
 
 var img = document.getElementById("showimg");
-var modalImg = document.getEl
+var panelImg = document.getElementById("img");
+
+img.onclick = function showImg(imgUrl) {
+    panel.style.display = "block";
+    panelImg.src = this.src.replace("/images/cheese.png", imgUrl); //imgUrl should be in json object
+}
+
+//get the <span> element that closes the modal 
+var closePanel = document.getElementsByClassName("close")[0];
+
+//when user clicks on <span> x or modal background -> close modal 
+closePanel.onlick = function closeImg() {
+    panel.style.display = "none";
+}
+
+modal.onclick = function clickModal(event) {
+    if (event.target === modal) {
+        panel.style.display = "none";
+    }
+}
 
 
 
