@@ -225,10 +225,10 @@
         "lat": 39.87,
         "lng": 25.06,
         "rating":"4.4",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "It is actually drained and aged inside tiny, traditional wicker baskets (giving it a basket-weave, ridged pattern) before being submerged in brine, with the name literally translating to 'little basket'",
+        "content": "Pasteurized sheep's milk or a mix of sheep's and up to 30% goat's milk",
+        "Url": "https://www.tasteatlas.com/kalathaki-limnou" ,
+        "img": ".images/cheeses/kalathakiLimnou.jpg"
     },
     {
         "name":"Grana Padano",
@@ -236,10 +236,10 @@
         "lat": 45.48,
         "lng": 9.85,
         "rating":"4.4",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "It is naturally lactose-free",
+        "content": "Raw milk, which makes up 98%",
+        "Url": "https://www.tasteatlas.com/grana-padano" ,
+        "img": ".images/cheeses/granaPadano.jpg"
     },
     {
         "name":"Pecorino Romano",
@@ -247,10 +247,10 @@
         "lat": 40.09,
         "lng": 8.98,
         "rating":"4.4",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "A cheese made from sheep's milk that was a staple food for the Roman army",
+        "content": "100% pasteurized or raw Italian sheep's milk",
+        "Url": "https://www.tasteatlas.com/pecorino-romano" ,
+        "img": ".images/cheeses/pecorinoRomano.jpg"
     },
     {
         "name":"Anthotyro",
@@ -258,10 +258,10 @@
         "lat": 39.10,
         "lng": 21.85,
         "rating":"4.4",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "The name anthotyro means flowery cheese, referring to the strong aromas of wild herbs",
+        "content": "From goat's or sheep's milk",
+        "Url": "https://www.tasteatlas.com/anthotyro" ,
+        "img": ".images/cheeses/anthotyro.jpg"
     },
     {
         "name":"Burrata di Andria",
@@ -269,10 +269,10 @@
         "lat": 41.01,
         "lng": 16.73,
         "rating":"4.4",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "It was created as a way to avoid waste by stuffing leftover mozzarella scraps and cream inside a fresh mozzarella shell",
+        "content": "Italian cow's milk",
+        "Url": "https://www.tasteatlas.com/burrata-di-andria" ,
+        "img": ".images/cheeses/burrataDiAndria.jpg"
     },
     {
         "name":"Queijo Serpa",
@@ -280,10 +280,10 @@
         "lat": 37.94,
         "lng": -7.60,
         "rating":"4.4",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Serpa is the most famous traditional Alentejano, region of Portugal, cheese",
+        "content": "Raw sheep milk",
+        "Url": "https://www.tasteatlas.com/queijo-serpa" ,
+        "img": ".images/cheeses/queijoSerpa.jpg"
     },
     {
         "name":"San Michali",
@@ -291,10 +291,10 @@
         "lat": 37.44,
         "lng": 24.94,
         "rating":"4.4",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "This hard cheese has a cylindrical shape, a compact texture, and a distinct salty and peppery flavor",
+        "content": "pasteurized or sometimes partly skimmed cow's milk",
+        "Url": "https://www.tasteatlas.com/san-michali" ,
+        "img": "./images/cheeses/sanMichali.jpg"
     },
     {
         "name":"Beaufort",
@@ -302,10 +302,10 @@
         "lat": 45.72,
         "lng": 6.58,
         "rating":"4.4",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "It has a unique concave (inward-curving) rind specifically designed to act as a 'dairy pulley' for transporting heavy, 70kg wheels on donkey backs down steep Alps",
+        "content": "Raw cow's milk",
+        "Url": "https://www.tasteatlas.com/beaufort" ,
+        "img": ".images/cheeses/beaufort.jpg"
     },
     {
         "name":"West Country Farmhouse Cheddar",
@@ -313,10 +313,10 @@
         "lat": 51.54,
         "lng": -0.19,
         "rating":"4.4",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "This cheddar was historically matured in the caves of Cheddar Gorge, which provided the perfect, cool, and humid environment for aging",
+        "content": "Pasteurised cow's milk",
+        "Url": "https://www.tasteatlas.com/west-country-farmhouse-cheddar" ,
+        "img": ".images/cheeses/westCountryFarmhouseCheddar.jpg"
     },
     {
         "name":"Queijo de Cabra Transmontano",
@@ -324,10 +324,10 @@
         "lat": 41.81,
         "lng": -6.76,
         "rating":"4.4",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "It is often aged for up to two years to become a 'Velho' (old) cheese, turning it from a semi-hard, mild cheese into a firm, intense, and spicy delicacy",
+        "content": "Raw milk from the Cabra Serrana goat breed",
+        "Url": "https://www.tasteatlas.com/queijo-de-cabra-transmontano" ,
+        "img": ".images/cheeses/transmontano.jpg"
     },
     {
         "name":"Ladotyri Mytilinis",
@@ -335,10 +335,10 @@
         "lat": 39.18,
         "lng": 26.22,
         "rating":"4.4",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "It was historically matured and stored in olive oil to preserve it before modern refrigeration",
+        "content": "100% sheep's milk or a mixture containing at least 70% sheep's milk and a maximum of 30% goat’s milk",
+        "Url": "https://www.tasteatlas.com/ladotyri-mytilinis" ,
+        "img": ".images/cheeses/ladotyriMytilinis.jpg"
     },
     {
         "name":"Comté",
@@ -346,10 +346,10 @@
         "lat": 47.28,
         "lng": 4.99,
         "rating":"4.4",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "It boasts up to 83 distinct flavors, changing from summer (yellow) to winter (ivory)",
+        "content": "Only milk from Montbéliarde or French Simmental cows (or cross breeds of the two)",
+        "Url": "https://www.tasteatlas.com/comte" ,
+        "img": ".images/cheeses/comte.jpg"
     },
     {
         "name":"Tenili",
@@ -357,10 +357,10 @@
         "lat": 41.69,
         "lng": 44.87,
         "rating":"4.4",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Made from sheep or cow milk",
+        "content": "It is incredibly labor-intensive to produce, serving Tenili is considered a sign of high honor and respect for a guest",
+        "Url": "https://www.tasteatlas.com/tenili" ,
+        "img": ".images/cheeses/tenili.jpg"
     },
     {
         "name":"Sfela",
@@ -368,10 +368,10 @@
         "lat": 37.08,
         "lng": 21.97,
         "rating":"4.4",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Sfela is called 'fire cheese' because the curd is reheated during production",
+        "content": "Made from sheep's milk or a mix of sheep and goat milk",
+        "Url": "https://www.tasteatlas.com/sfela" ,
+        "img": ".images/cheeses/sfela.jpg"
     },
     {
         "name":"Arseniko Naxou",
@@ -379,10 +379,10 @@
         "lat": 38.56,
         "lng": 26.08,
         "rating":"4.4",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "'Arseniko' means male in Greek, referring to its sharp, aggressive, and strong character, as it is made using the most robust part of the morning milk. It is often paired with Thylikatori (female), a soft cheese made from the leftover whey of the Arseniko",
+        "content": "Unpasteurized local sheep and goats' milk",
+        "Url": "https://www.tasteatlas.com/arseniko-naxou" ,
+        "img": ".images/cheeses/arsenikoNaxou.jpg"
     },
     {
         "name":"Ovčí Salašnícky Údený Syr",
@@ -390,10 +390,10 @@
         "lat": 48.69,
         "lng": 19.75,
         "rating":"4.4",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "It is still often produced by hand using traditional methods and sometimes shaped with wooden molds, giving it a unique rustic, smoky profile",
+        "content": "Unpasteurized sheep's milk",
+        "Url": "https://www.tasteatlas.com/ovci-salasnicky-udeny-syr" ,
+        "img": ".images/cheeses/ovci.jpg"
     },
     {
         "name":"Stracciata",
@@ -401,10 +401,10 @@
         "lat": 38.56,
         "lng": 26.08,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Originally created to prevent waste by mixing leftover, hand-torn mozzarella shreds with heavy cream",
+        "content": "Produced from Italian buffalo milk",
+        "Url": "https://www.tasteatlas.com/stracciata" ,
+        "img": ".images/cheeses/stracciatella.jpg"
     },
     {
         "name":"Graviera Agrafon",
