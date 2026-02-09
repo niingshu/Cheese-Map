@@ -9,3 +9,4 @@ export function closePanel() {
     document.getElementById('cheeseSidePanel').style.width = "0";
 }
 window.closePanel = closePanel;
+

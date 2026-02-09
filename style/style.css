@@ -10,16 +10,24 @@
 /*The sidepanel menu*/
 .sidepanel {
     width: 0;
-    height: 100%;
+    height: 100vh;
     position: fixed; /*stay in place*/
     z-index: 1000; /*stay on top*/
     top: 0;
     right: 0; /*show the panel on the right*/
     background-color: white; /*black*/
     overflow-x: hidden; /*disable horizontal scroll*/
-    padding-top: 60px; /*placed content 60px from the top*/
-    transition: 0.5s; /*0.5 second transition effect to slide in side panel*/
+    overflow-y: scroll;
+    padding-top: 60px 20px; /*placed content 60px from the top*/
+    transition: 0.3s; /*0.3 second transition effect to slide in side panel*/
 }
+
+/*highlight the selected marker, connected to js*/
+.markerSelected {
+    transform: scale(1.75);
+    filter: drop-shadow(0px 0px 10px rgba(243, 29, 29, 0.5));
+}
+
 
 /* The sidepanel links */
 .sidepanel a {
@@ -31,13 +39,22 @@
   transition: 0.3s;
 }
 
+.sidepanel .name {
+    padding: 0px 5px 0px 20px;
+    color: #181818;
+    font-weight: bold;
+    text-decoration: antiquewhite;
+    font-size: 25px;
+}
+
 /*display the text within the panel*/
 .sidepanel a, .sidepanel p { 
-    padding: 8px 8px 8px 32px;
+    padding: 0px 0px 0px 32px;
     text-decoration: none;
-    font-size: 20px;
-    color: #818181;
+    font-size: 17px;
+    color: #585858;
     display: block;
+    overflow-y: scroll;
     transition: 0.3;
 }
 
@@ -50,7 +67,7 @@
 
 /* When you mouse over the navigation links, change their color */
 .sidepanel a:hover {
-  color: #1a1a1a;
+  color: #151515;
 }
 
 /* Position and style the close button (top right corner) */
@@ -71,6 +88,7 @@
   background-color: #111;
   color: white;
   padding: 10px 15px;
+  overflow-y: scroll;
   border: none;
 }
 
