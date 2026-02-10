@@ -56,18 +56,34 @@
 /*The sidepanel menu*/
 .sidepanel {
     width: 0;
-    height: 100vh;
+    height: calc(100vh - 90px);
     position: fixed; /*stay in place*/
     z-index: 1000; /*stay on top*/
     top: 0;
     right: 0; /*show the panel on the right*/
     margin-top: 70px;
+    margin-bottom: 70px;
     border-radius: 6px;
     background-color: white; /*black*/
     overflow-x: hidden; /*disable horizontal scroll*/
     overflow-y: scroll;
-    padding-top: 60px 20px; /*placed content 60px from the top*/
+    padding: 60px 2opx; /*placed content 60px from the top*/
     transition: 0.3s; /*0.3 second transition effect to slide in side panel*/
+}
+
+/*resizing bar*/
+.resize-bar {
+    position: absolute; 
+    left: 0;
+    top: 0;
+    width: 6px;
+    height: 100%;
+    cursor: ew-resize;
+    background: transparent;
+}
+
+.resize-bar:hover {
+    background: rgba(0, 0, 0, 0.1);
 }
 
 /*highlight the selected marker, connected to js*/
@@ -91,6 +107,8 @@
     color: #181818;
     font-weight: bold;
     text-decoration: antiquewhite;
+    align-items: center;
+    justify-content: center;
     font-size: 27px;
 }
 
@@ -110,6 +128,7 @@
     height: auto;
     margin-bottom: 12px;
     border-radius: 6px;
+    object-fit: cover;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -141,4 +160,8 @@
 
 .openbtn:hover {
   background-color: #444;
+}
+
+.sidepanel.is-dragging {
+    background-color: lightblue;
 }
