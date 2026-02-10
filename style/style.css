@@ -13,11 +13,12 @@
 }
 
 .search {
-    position: absolute;
+    position: fixed;
     top: 16px;
     right: 16px;
     width: 260px;
-    z-index: 1000; /*stay above the map*/
+    z-index: 2000; /*stay above the map*/
+    overflow-y: scroll; /*scrollable*/
 }
 
 #searchInput {
@@ -29,18 +30,25 @@
 }
 
 #resultList {
+    z-index: 10000;
     list-style-type: none;
     background-color: #e9e8e8;
     padding: 0;
     margin: 0;
     border: 1px solid #ddd;
+
+    max-height: calc(100vh - 69px);
+    overflow-y: auto; /*scrollable*/
+    overflow-x: hidden;
 }
 
 #resultsList li:last-child {
+    z-index: 2000;
     border-bottom: none;
 }
 
 #resultList li:hover {
+    z-index: 2000;
     background-color: #fbf9f9;
     font-weight: bold;
 }
