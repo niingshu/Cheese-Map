@@ -412,21 +412,10 @@
         "lat": 39.58,
         "lng": 22.24,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
-    },
-    {
-        "name":"Stracciatella",
-        "origin":"Apulia, Italy",
-        "lat": 41.01,
-        "lng": 16.72,
-        "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "It is actually more popular outside of Greece—specifically in France, Switzerland, and Germany—than within its home country",
+        "content": "Raw sheep's milk with up to 30 percent goat's milk",
+        "Url": "https://www.tasteatlas.com/graviera-agrafon" ,
+        "img": "./images/cheeses/gravieraAgrafon.jpg"
     },
     {
         "name":"Mastelo",
@@ -434,10 +423,10 @@
         "lat": 38.36,
         "lng": 26.14,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "It has an incredible, high melting point, allowing it to be grilled or pan-fried without losing its shape or melting away",
+        "content": "From rich Chian cow's milk",
+        "Url": "https://www.tasteatlas.com/mastelo" ,
+        "img": "./images/cheeses/mastelo.jpg"
     },
     {
         "name":"Manchego viejo",
@@ -445,10 +434,10 @@
         "lat": 39.27,
         "lng": -1.91,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "The wheel shape of cheese is due to the fact that it was originally produced in a round form to make transportation easier",
+        "content": "100% whole milk of the Manchega sheep",
+        "Url": "https://www.tasteatlas.com/manchego-viejo" ,
+        "img": "./images/cheeses/manchegoViejo.jpg"
     },
     {
         "name":"Manchego curado",
@@ -456,10 +445,10 @@
         "lat": 39.27,
         "lng": -1.91,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "The zigzag, herringbone pattern on the rind is not just decorative; it historically mimics the woven grass molds (esparto) used to drain the cheese",
+        "content": "100% whole milk of the Manchega sheep",
+        "Url": "https://www.tasteatlas.com/manchego-curado" ,
+        "img": "./images/cheeses/manchegoCurado.jpg"
     },
     {
         "name":"Crottin de Chavignol",
@@ -467,10 +456,10 @@
         "lat": 47.34,
         "lng": 2.80,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "It was originally named after the clay oil lamps (crot) used in local wine cellars, not animal waste",
+        "content": "Raw, whole goat's milk in the Loire Valley",
+        "Url": "https://www.tasteatlas.com/crottin-de-chavignol" ,
+        "img": "./images/cheeses/crottinDeChavignol.jpg"
     },
     {
         "name":"Noord-Hollandse Gouda",
@@ -478,10 +467,10 @@
         "lat": 52.69,
         "lng": 4.93,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "While it is world-famous, Gouda is named after the town where it was historically traded, not necessarily produced",
+        "content": "Pasteurized cow's milk",
+        "Url": "https://www.tasteatlas.com/noord-hollandse-gouda" ,
+        "img": "./images/cheeses/noord.jpg"
     },
     {
         "name":"Idiazabal",
@@ -489,10 +478,10 @@
         "lat": 42.96,
         "lng": -2.69,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "While it is a hard cheese, it has a surprisingly oily and elastic texture when eaten",
+        "content": "100% raw, whole milk, exclusively from Latxa or Carranzana sheep",
+        "Url": "https://www.tasteatlas.com/idiazabal" ,
+        "img": "./images/cheeses/idiazabal.jpg"
     },
     {
         "name":"Ricotta di Bufala Campana",
@@ -500,10 +489,10 @@
         "lat": 40.93,
         "lng": 14.20,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "It is not technically a 'cheese but rather a dairy byproduct, or latticino, made by 're-cooking' the leftover whey from Mozzarella di Bufala",
+        "content": "Whey of buffalo milk in the Campania region of Italy",
+        "Url": "https://www.tasteatlas.com/ricotta-di-bufala-campana" ,
+        "img": "./images/cheeses/ricottaDiBufalaCampana.jpg"
     },
     {
         "name":"Xynomyzithra Kritis",
@@ -511,10 +500,10 @@
         "lat": 35.25,
         "lng": 24.91,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "It is a Greek cheese that is actually a 'recycling' product, traditionally made from the leftover whey of harder cheeses like Graviera",
+        "content": "Whey of sheep's or goat's milk, with added milk and cream",
+        "Url": "https://www.tasteatlas.com/xynomyzithra-kritis" ,
+        "img": "./images/cheeses/xynomizithraKriti.jpg"
     },
     {
         "name":"Mozzarella",
@@ -522,10 +511,10 @@
         "lat": 40.93,
         "lng": 14.20,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Mozzarella's name comes from the Neapolitan dialect word mozzare ('to cut off'), describing how the curd is hand-stretched and cut into individual balls, a technique developed to create its signature texture",
+        "content": "Water buffalo or cow's milk",
+        "Url": "https://www.tasteatlas.com/mozzarella" ,
+        "img": "./images/cheeses/mozzarella.jpg"
     },
     {
         "name":"Gorgonzola dolce",
@@ -533,10 +522,10 @@
         "lat": 45.53,
         "lng": 9.41,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Legend says a distracted cheesemaker in a hurry to meet his lover forgot his curds, resulting in an accidental, delightful, and creamy mold-veined cheese",
+        "content": "Cow milk that is typically pasteurized",
+        "Url": "https://www.tasteatlas.com/gorgonzola-dolce" ,
+        "img": "./images/cheeses/gorgonzolaDolc.jpg"
     },
     {
         "name":"Queijo de Coalho",
@@ -544,10 +533,10 @@
         "lat": -8.08,
         "lng": -34.99,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Despite being heated directly over fire, Coalho does not turn into a puddle; it becomes golden and soft inside, making it an ideal, non-leaking, high-temperature grilling cheese",
+        "content": "Cow's milk, it can be crafted using either pasteurized or unpasteurized milk",
+        "Url": "https://www.tasteatlas.com/queijo-de-coalho" ,
+        "img": "./images/cheeses/queijoCoalho.jpg"
     },
     {
         "name":"Gorgonzola piccante",
@@ -555,10 +544,10 @@
         "lat": 45.53,
         "lng": 9.41,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "A robust, aged Italian blue cheese, is deeply connected to a legend of a 'lovesick cheesemaker' who was so distracted by a romantic rendezvous that he left his curds in a cauldron overnight, accidentally inventing the crumbly, spicy, and mold-veined cheese (also known as erborinatura) through this mistake",
+        "content": "Pasteurized or raw whole cow’s milk",
+        "Url": "https://www.tasteatlas.com/gorgonzola-piccante" ,
+        "img": "./images/cheeses/gorgonzolaPiccante.jpg"
     },
     {
         "name":"Ciliegine mozzarella",
@@ -566,10 +555,10 @@
         "lat": 40.93,
         "lng": 14.20,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Ciliegine meaning 'cherry' in Italian, refers to small, cherry-sized mozzarella balls",
+        "content": "Pasteurized cow's milk",
+        "Url": "https://www.tasteatlas.com/ciliegine-mozzarella" ,
+        "img": "./images/cheeses/ciliegineMozzarella.jpg"
     },
     {
         "name":"Katiki Domokou",
@@ -577,10 +566,10 @@
         "lat": 39.13,
         "lng": 22.30,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Unlike most cheeses, Katiki Domokou curdles primarily through acidic fermentation (often using natural yogurt or sour milk), not rennet",
+        "content": "Pasteurized goat and sheep milk (or a mix)",
+        "Url": "https://www.tasteatlas.com/katiki-domokou" ,
+        "img": "./images/cheeses/katikiDomokou.jpg"
     },
     {
         "name":"Provolone del Monaco",
@@ -588,10 +577,10 @@
         "lat": 44.86,
         "lng": -97.60,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": " It is often shaped like a melon or pear, with distinct grooves from the cords used to hang it while it cures for 4 to 18 months",
+        "content": "Raw whole cow's milk, at least 20 percent of which comes from the local Agerolese breed",
+        "Url": "https://www.tasteatlas.com/provolone-del-monaco" ,
+        "img": "./images/cheeses/provoloneDelMonaco.jpg"
     },
     {
         "name":"Bryndza Podhalańska",
@@ -599,10 +588,10 @@
         "lat": 50.35,
         "lng": 21.00,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Traditionally, in the region, this cheese has been considered so healthy due to its high protein, calcium, and vitamin (A, B, D) content that it is nicknamed 'white gold'",
+        "content": "Unpasteurized sheep's milk",
+        "Url": "https://www.tasteatlas.com/bryndza-podhalanska" ,
+        "img": "./images/cheeses/bryndza.jpg"
     },
     {
         "name":"Oaxaca cheese",
@@ -610,10 +599,10 @@
         "lat": 17.07,
         "lng": -96.73,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "The legend states that a young girl accidentally let the milk for her cheese curds coagulate too much. To hide her mistake, she added hot water, which produced a delicious, stringy texture that became famous",
+        "content": "Raw or pasteurized cow's milk",
+        "Url": "https://www.tasteatlas.com/oaxaca-cheese" ,
+        "img": "./images/cheeses/oaxaca.jpg"
     },
     {
         "name":"Boerenkaas",
@@ -621,10 +610,10 @@
         "lat": 52.13,
         "lng": 5.29,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "The flavor changes depending on the season, with summer milk producing a more floral taste compared to winter milk",
+        "content": "Raw cow's milk",
+        "Url": "https://www.tasteatlas.com/boerenkaas" ,
+        "img": "./images/cheeses/boerenkaas.jpg"
     },
     {
         "name":"Bundz",
@@ -632,10 +621,10 @@
         "lat": 50.35,
         "lng": 21.00,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "The leftover whey from making Bundz is used to create a popular, sour, and refreshing drink called żętyca (or tyca)",
+        "content": "Sheep's milk in Podhale region",
+        "Url": "https://www.tasteatlas.com/bundz" ,
+        "img": "./images/cheeses/bundz.jpg"
     },
     {
         "name":"Raclette de Savoie",
@@ -643,10 +632,10 @@
         "lat": 46.07,
         "lng": 6.42,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "The name comes from the French verb racler (to scrape), as shepherds scraped the melted cheese onto bread or potatoes",
+        "content": "Raw or thermized cow's milk",
+        "Url": "https://www.tasteatlas.com/raclette-de-savoie" ,
+        "img": "./images/cheeses/raclette.jpg"
     },
     {
         "name":"Bocconcini",
@@ -654,10 +643,10 @@
         "lat": 40.92,
         "lng": 14.20,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Some varieties, like Saputo Lite Cocktail Bocconcini, offer a version with 30% less fat while maintaining the same flavor",
+        "content": "Traditionally made from water buffalo milk, though commonly produced today using pasteurized cow's milk",
+        "Url": "https://www.tasteatlas.com/bocconcini" ,
+        "img": "./images/cheeses/bocconcini.jpg"
     },
     {
         "name":"Tête de Moine",
@@ -665,10 +654,10 @@
         "lat": 47.24,
         "lng": 7.21,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": ""  ,
-        "img": ""
+        "fun": "The name means 'monk's head' It is believed the cheese, when scraped, resembles the tonsure (bald spot) of the monks at the Abbey de Bellelay who first produced it in the 12th century",
+        "content": "Unpasteurized, raw cow's milk",
+        "Url": "https://www.tasteatlas.com/tete-de-moine"  ,
+        "img": "./images/cheeses/tête.jpg"
     },
     {
         "name":"Slovenský Oštiepok",
@@ -676,10 +665,10 @@
         "lat": 48.69,
         "lng": 19.70,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": ""  ,
-        "img": ""
+        "fun": "Shaped like a large egg or a pine cone, with a golden brown exterior",
+        "content": "Raw sheep's milk, a mixture of sheep's and cow's milk, or cow's milk",
+        "Url": "https://www.tasteatlas.com/slovensky-ostiepok"  ,
+        "img": "./images/cheeses/slovenskýOštiepok.jpg"
     },
     {
         "name":"Queso Manchego",
