@@ -33,8 +33,8 @@ var highlightCheese = L.icon({
 });
 
 var selectedMarker = null; //the marker that is selected
-
 var selectedCheese = null; //the cheese that is selected
+var cheesesMap = new Map(); //map the cheese.id with marker
 
 var bounds = []
 
@@ -47,10 +47,11 @@ fetch("data/cheeses.json")
             var marker = L.marker([cheese.lat, cheese.lng], {icon: cheeseSpot})
                 .addTo(map)
                 .bindTooltip(cheese.name + " (" + cheese.origin + ")");
+            
+            cheesesMap.set(cheese.id, marker); //add it into map for every cheese
 
             marker.on('click', () => {
                 onCheeseClick(cheese, marker);
-                
                 //smooth animated pan and zoom
                 map.flyTo(marker.getLatLng(), 6);
             });
@@ -165,6 +166,10 @@ function displayData(dataToDisplay) {
         //customize what to display from each JSON
         li.classList.add('result-item'); //for styling
         li.innerHTML = item.name; //not sure
+
+        li.dataset.itemId = item.id; //because id was never declared 
+        li.addEventListener('click', handleItemClick);
+
         resultsList.appendChild(li);
     });
 }
@@ -174,9 +179,12 @@ function handleItemClick(event) {
 
     //find the corresponding object in original data 
     const searchedCheese = allData.find(item => item.id === parseInt(itemId));
-    //const searchedMarker =//create a map to map the cheese to marker then choose it from there
+    //create a map to map the cheese(using its id) to marker then choose it from there
+    const searchedMarker = cheesesMap.get(parseInt(itemId));
 
-    onCheeseClick(searchedCheese, event); //prase the chosen marker here
+    //display the pabel
+    onCheeseClick(searchedCheese, searchedMarker); //prase the chosen marker here
+    map.flyTo(searchedMarker.getLatLng(), 6);
 }
 
 //initialize by fetching the data when scip loads 
