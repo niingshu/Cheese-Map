@@ -738,10 +738,10 @@
         "lat": 39.27,
         "lng": -1.91,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": ""  ,
-        "img": ""
+        "fun": "Its distinct, traditional rind pattern mimics the braided grass molds (esparto grass) once used to drain the cheese, a pattern still required by regulatory councils",
+        "content": "Milk of sheep of the Manchega breed",
+        "Url": "https://www.tasteatlas.com/queso-manchego"  ,
+        "img": "./images/cheeses/quesoManchego.jpg"
     },
     {
         "id": 63,
@@ -750,22 +750,22 @@
         "lat": 45.48,
         "lng": 9.85,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": ""  ,
-        "img": ""
+        "fun": "often called 'tired' cheese because its name derives from stracca (Italian for 'tired'), referring to the exhaustion of cows moving between Alpine pastures and the Lombardy valley, which results in milk richer in fat",
+        "content": "Italian cow's milk cheese typical of the regions of Lombardy, Tuscany, Veneto, Friuli-Venezia Giulia, and Liguria",
+        "Url": "https://www.tasteatlas.com/stracchino-di-crescenza"  ,
+        "img": "./images/cheeses/stracchinoDiCrescenza.jpg"
     },
     {
         "id": 64,
-        "name":"Paški sir (Pag cheese)",
+        "name":"",
         "origin":"Pag, Croatia",
         "lat": 44.44,
         "lng": 15.05,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": ""  ,
-        "img": ""
+        "fun": "The rocky, lunar-like landscape of Pag is inhabited by far more sheep than people",
+        "content": "100% pastuerized sheep's milk sourced exclusively from the indigenous Pag sheep breed on the Croatian island of Pag",
+        "Url": "https://www.tasteatlas.com/paski-sir"  ,
+        "img": "./images/cheeses/pagCheese.jpg"
     },
     {
         "id": 65,
@@ -774,10 +774,10 @@
         "lat": 41.83,
         "lng": 44.80,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Sulguni is a 'quick' Georgian pickled cheese, often ready to eat in just one or two days, that gets its name from 'suli' (soul) and 'guli' (heart)",
+        "content": "Cow and buffalo milk",
+        "Url": "https://www.tasteatlas.com/sulguni" ,
+        "img": "./images/cheeses/sulguni.jpg"
     },
     {
         "id": 66,
@@ -786,10 +786,10 @@
         "lat": 38.11,
         "lng": 15.65,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "The cheese is produced in a teardrop shape with a distinct neck, tied in pairs, and hung over a horizontal wooden rod ('cavallo') to mature",
+        "content": "Raw or fresh cow's milk",
+        "Url": "https://www.tasteatlas.com/caciocavallo-silano" ,
+        "img": "./images/cheeses/caciocavalloSilano.jpg"
     },
     {
         "id": 67,
@@ -798,10 +798,10 @@
         "lat": 48.64,
         "lng": 2.51,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": ""  ,
-        "img": ""
+        "fun": "If aged for several months, the rind turns dark, and the cheese becomes very strong, earning the name Brie Noir",
+        "content": "Cow milk that is typically unpasteurized",
+        "Url": "https://www.tasteatlas.com/brie-de-melun"  ,
+        "img": "./images/cheeses/brieDeMelun.jpg"
     },
     {
         "id": 68,
@@ -810,10 +810,10 @@
         "lat": 46.53,
         "lng": 6.02,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Historically, the black streak was made from real ash taken from the bottom of the cheesemaker's cooking cauldron to prevent mold or insects from damaging the curd",
+        "content": "Exclusively with unpasteurised milk",
+        "Url": "https://www.tasteatlas.com/morbier" ,
+        "img": "./images/cheeses/morbier.jpg"
     },
     {
         "id": 69,
@@ -822,10 +822,10 @@
         "lat": 39.68,
         "lng": 22.24,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "This tangy, yogurt-like spreadable cheese was crowned the 2023 Great Taste Supreme Champion,",
+        "content": "At least 70% sheep's milk and up to 30% goat's milk",
+        "Url": "https://www.tasteatlas.com/galotyri" ,
+        "img": "./images/cheeses/galotyri.jpg"
     },
     {
         "id": 70,
@@ -834,10 +834,10 @@
         "lat": 48.67,
         "lng": 19.70,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Traditional Slovak steamed, smoked sheep’s milk cheese with a distinctive 'S' shape and fibrous, stringy, and elastic texture",
+        "content": "Mixture of raw sheep's and cow's milk, where the content of sheep's milk must be at least 50%",
+        "Url": "https://www.tasteatlas.com/slovenska-parenica" ,
+        "img": "./images/cheeses/slovenskáParenica.jpg"
     },
     {
         "id": 71,
@@ -846,10 +846,10 @@
         "lat": 49.85,
         "lng": 20.25,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Historically, these cheeses were used by highlanders to pay for goods and services",
+        "content": "A minimum of 60% unpasteurized sheep’s milk, with the remainder often being cow's milk",
+        "Url": "https://www.tasteatlas.com/oscypek" ,
+        "img": "./images/cheeses/oscypki.jpg"
     },
     {
         "id": 72,
@@ -858,10 +858,10 @@
         "lat": 39.07,
         "lng": 21.82,
         "rating":"4.3",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Despite being a pillar of Greek cuisine, this popular appetizer was actually invented in Chicago, Illinois, rather than in Greece",
+        "content": "Sheep milk or goat's milk (or both) in Greece and Cyprus",
+        "Url": "https://www.tasteatlas.com/kefalotyri" ,
+        "img": "./images/cheeses/kefalotyri.jpg"
     },
     {
         "id": 73,
@@ -870,10 +870,10 @@
         "lat": 46.07,
         "lng": 6.42,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "It is a 'tax-evasion' cheese, born to avoid high taxes based on milk production, farmers would only partially milk their cows during inspection, later performing a second, secret milking ('reblocher') to produce this rich, creamy cheese. ",
+        "content": "Raw cow's milk",
+        "Url": "https://www.tasteatlas.com/reblochon" ,
+        "img": "./images/cheeses/reblochon.jpg"
     },
     {
         "id": 74,
@@ -882,10 +882,10 @@
         "lat": 45.69,
         "lng": 9.67,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Famously known for its incredibly pungent, 'stinky' smell—often compared to body odor or wet grass",
+        "content": "Exclusively of pasteurized cow's milk",
+        "Url": "https://www.tasteatlas.com/taleggio" ,
+        "img": "./images/cheeses/taleggio.jpg"
     },
     {
         "id": 75,
@@ -894,10 +894,10 @@
         "lat": 46.38,
         "lng": 4.54,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Often called 'the king of cheeses' that is so odoriferous it is rumored to be banned from public transport in France",
+        "content": "Either raw (unpasteurized) or pasteurized exclusively from whole cow's milk",
+        "Url": "https://www.tasteatlas.com/epoisses" ,
+        "img": "./images/cheeses/epoisses.jpg"
     },
     {
         "id": 76,
@@ -906,10 +906,10 @@
         "lat": 45.50,
         "lng": 6.00,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Historically, this was a peasant cheese made from whatever milk was left after making larger, more expensive wheels like Beaufort",
+        "content": "Raw, leftover skimmed cow's milk",
+        "Url": "https://www.tasteatlas.com/tomme-de-savoie" ,
+        "img": "./images/cheeses/tommDeSavoie.jpg"
     },
     {
         "id": 77,
@@ -918,10 +918,10 @@
         "lat": 36.76,
         "lng": -5.37,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": ""  ,
-        "img": ""
+        "fun": "The cheese is made from the milk of the Payoya goat, which is considered an endangered breed, making the consumption of the cheese a way to promote its sustainability",
+        "content": "Milk of Payoya goats and Merina grazalemeña sheep",
+        "Url": "https://www.tasteatlas.com/queso-payoyo"  ,
+        "img": "./images/cheeses/quesoPayoyo.jpg"
     },
     {
         "id": 78,
@@ -930,10 +930,10 @@
         "lat": 43.05,
         "lng": 0.17,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Despite being a rustic, traditional mountain cheese, it is often noted for tasting similar to a creamier, softer version of modern Babybel",
+        "content": "Cow's milk ",
+        "Url": "https://www.tasteatlas.com/tomme-des-pyrenees" ,
+        "img": "./images/cheeses/tomme.jpg"
     },
     {
         "id": 79,
@@ -942,10 +942,10 @@
         "lat": 38.43,
         "lng": 22.67,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "This cheese is considered a 'gastronomic treasure' of the Arachova region, produced under strict PDO regulations since 1996, meaning true Formaella is rarely found outside this specific mountain area",
+        "content": "Sheep's milk, goat's milk, or a mixture of both",
+        "Url": "https://www.tasteatlas.com/formaella-arachovas-parnassou" ,
+        "img": "./images/cheeses/formaellaArachovasParnassou.jpg"
     },
     {
         "id": 80,
@@ -954,10 +954,10 @@
         "lat": 35.25,
         "lng": 24.91,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": ""  ,
-        "img": ""
+        "fun": "Actually made from the leftover whey of other cheeses like Feta",
+        "content": "Pasteurized sheep's milk",
+        "Url": "https://www.tasteatlas.com/myzithra"  ,
+        "img": "./images/cheeses/myzithra.jpg"
     },
     {
         "id": 81,
@@ -966,10 +966,10 @@
         "lat": 52.13,
         "lng": 5.29,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": ""  ,
-        "img": ""
+        "fun": "Old Amsterdam is actually a relatively young, factory-produced cheese that matures in only 8 months—much faster than the 10–12 months traditional for old Gouda",
+        "content": "Pasteurized cow's milk",
+        "Url": "https://www.tasteatlas.com/old-amsterdam"  ,
+        "img": "./images/cheeses/oldamsterdam.jpg"
     },
     {
         "id": 82,
@@ -978,10 +978,10 @@
         "lat": -18.51,
         "lng": -44.56,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "It is so culturally significant that its artisanal production, often involving small, family-run farms, is recognized as a UNESCO Intangible Cultural Heritage",
+        "content": "Cow's milk",
+        "Url": "https://www.tasteatlas.com/queijo-minas" ,
+        "img": "./images/cheeses/queijoMinas.jpg"
     },
     {
         "id": 83,
@@ -990,10 +990,10 @@
         "lat": 46.17,
         "lng": 9.75,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "One of the world's longest-aged edible cheeses, with specialized 'Bitto Storico' (or 'Storico Ribelle') wheels matured for up to 18 years, developing a intense, nutty, and crystalline texture",
+        "content": "Mostly raw whole cow’s milk (from Braunvieh cows) blended with 10% to 20% raw goat’s milk",
+        "Url": "https://www.tasteatlas.com/bitto" ,
+        "img": "./images/cheeses/bitto.jpg"
     },
     {
         "id": 84,
@@ -1002,10 +1002,10 @@
         "lat": 45.15,
         "lng": 5.32,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "It is so runny when ripe that it is typically sold in a small, protective earthenware crock to prevent it from escaping",
+        "content": "Cow's milk",
+        "Url": "https://www.tasteatlas.com/saint-marcellin" ,
+        "img": "./images/cheeses/saintMarcellin.jpg"
     },
     {
         "id": 85,
