@@ -169,6 +169,12 @@ function displayData(dataToDisplay) {
 
         li.dataset.itemId = item.id; //because id was never declared 
         li.addEventListener('click', handleItemClick);
+        li.addEventListener('click', () => {
+            //clear the result list (ie. not making it = 'none') 
+            resultsList.innerHTML = '';
+            //clear the search input
+            searchInput.value = '';
+        })
 
         resultsList.appendChild(li);
     });
@@ -182,9 +188,9 @@ function handleItemClick(event) {
     //create a map to map the cheese(using its id) to marker then choose it from there
     const searchedMarker = cheesesMap.get(parseInt(itemId));
 
-    //display the pabel
+    //display the panel
     onCheeseClick(searchedCheese, searchedMarker); //prase the chosen marker here
-    map.flyTo(searchedMarker.getLatLng(), 6);
+    map.flyTo(searchedMarker.getLatLng(), 5);
 }
 
 //initialize by fetching the data when scip loads 
