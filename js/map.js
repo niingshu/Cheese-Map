@@ -169,6 +169,16 @@ function displayData(dataToDisplay) {
     });
 }
 
+function handleItemClick(event) {
+    const itemId = event.currentTarget.dataset.itemId; //cheeses in json needs id
+
+    //find the corresponding object in original data 
+    const searchedCheese = allData.find(item => item.id === parseInt(itemId));
+    //const searchedMarker =//create a map to map the cheese to marker then choose it from there
+
+    onCheeseClick(searchedCheese, event); //prase the chosen marker here
+}
+
 //initialize by fetching the data when scip loads 
 fetchCheesesData();
 

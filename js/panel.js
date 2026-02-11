@@ -22,8 +22,6 @@ let z = 1000
 panes.forEach(pane => {
     //add a draggable, listen to the mouse down
     const title = pane.querySelector('.panel-image');
-    //resizable corner 
-    const corner = pane.querySelector('.corner')
 
     title.addEventListener('mousedown', (event) => {
         pane.classList.add('is-dragging')
@@ -70,7 +68,7 @@ panes.forEach(pane => {
             };
 
             const mouseUp = () => {
-                document.removeEventListener('mousedown', drag);
+                document.removeEventListener('mousemove', drag);
                 document.removeEventListener('mouseup', mouseUp);
             };
 
