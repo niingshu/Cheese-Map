@@ -53,6 +53,11 @@
     font-weight: bold;
 }
 
+/*bold the matching letters in a search*/
+b {
+    font-weight: bold;
+}
+
 /*The sidepanel menu*/
 .sidepanel {
     width: 0;

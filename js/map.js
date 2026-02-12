@@ -132,18 +132,23 @@ const resultsList = document.getElementById('resultList');
 
 searchInput.addEventListener('input', (e) => {
     const query = e.target.value.toLowerCase().trim(); //.trim() removes extra spaces
-    
+    const query1 = searchInput.value; //case insensitive
+
     //clear result every time use types
     resultsList.innerHTML = ''; 
 
     if (query.length === 0) return;
+    //preventing regex error
+    const escapeQuery = query1.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    //makde regex gi for global and not case sensitice
+    const regex = new RegExp(`(${escapeQuery})`, 'gi');
 
     //only run the filter if there is actual text in input 
     const filteredData = allData.filter(item => 
         item.name.toLowerCase().includes(query)
     );
 
-    displayData(filteredData);
+    displayData(filteredData, regex);
 });
 
 //function to fetch json data
@@ -158,7 +163,7 @@ async function fetchCheesesData() {
 }
 
 //function to display data in the list 
-function displayData(dataToDisplay) {
+function displayData(dataToDisplay, regex) {
     resultsList.innerHTML = '';
 
     dataToDisplay.forEach(item => {
@@ -166,6 +171,9 @@ function displayData(dataToDisplay) {
         //customize what to display from each JSON
         li.classList.add('result-item'); //for styling
         li.innerHTML = item.name; //not sure
+
+        //replace the matching from input with the bold tag
+        li.innerHTML = item.name.replace(regex,'<b>$1</b>');
 
         li.dataset.itemId = item.id; //because id was never declared 
         li.addEventListener('click', handleItemClick);
