@@ -435,8 +435,8 @@
         "id": 37,
         "name":"Stracciata",
         "origin":"Molise, Italy",
-        "lat": 38.56,
-        "lng": 26.08,
+        "lat": 41.73,
+        "lng": 14.56,
         "rating":"4.3",
         "fun": "Originally created to prevent waste by mixing leftover, hand-torn mozzarella shreds with heavy cream",
         "content": "Produced from Italian buffalo milk",
@@ -627,8 +627,8 @@
         "id": 53,
         "name":"Provolone del Monaco",
         "origin":"Metropolitan City of Naples, Italy",
-        "lat": 44.86,
-        "lng": -97.60,
+        "lat": 40.86,
+        "lng": 14.27,
         "rating":"4.3",
         "fun": " It is often shaped like a melon or pear, with distinct grooves from the cords used to hang it while it cures for 4 to 18 months",
         "content": "Raw whole cow's milk, at least 20 percent of which comes from the local Agerolese breed",
@@ -1014,10 +1014,10 @@
         "lat": 46.58,
         "lng": 7.08,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Historically, it was developed by medieval peasants as a way to preserve milk, with the first recorded mention dating back to 1115",
+        "content": "Only raw milk from cows fed with natural forage (grass in summer and hay in winter) and without any additives or ensilage",
+        "Url": "https://www.tasteatlas.com/gruyere" ,
+        "img": "./images/cheeses/gruyère.jpg"
     },
     {
         "id": 86,
@@ -1026,10 +1026,10 @@
         "lat": 41.21,
         "lng": 28.74,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": ""  ,
-        "img": ""
+        "fun": "Unlike modern cheeses, it is stuffed into goat or sheep hides, which are sometimes perforated to let whey drain, allowing the skin to impart a unique, earthy, and pungent flavor",
+        "content": "Raw sheep's milk, though goat's milk or mixtures (including cow's milk) are common, especially in commercial varieties",
+        "Url": "https://www.tasteatlas.com/tulum-peyniri"  ,
+        "img": "./images/cheeses/tulumPeyniri.jpg"
     },
     {
         "id": 87,
@@ -1038,10 +1038,10 @@
         "lat": 39.58,
         "lng": 22.24,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "While feta is tangy and salty, Manouri is created by adding fresh cream to the whey left over from making feta, resulting in a soft, rich, and much milder cheese",
+        "content": "Goat or sheep milk that is typically pasteurized",
+        "Url": "https://www.tasteatlas.com/manouri" ,
+        "img": "./images/cheeses/manouri.jpg"
     },
     {
         "id": 88,
@@ -1050,10 +1050,10 @@
         "lat": 46.77,
         "lng": 24.94,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "The cheese was originally produced only in Romania but when the Vlach population started spreading beyond their native country, the recipe became popular in European nations like Greece, Macedonia, Bulgaria and Poland",
+        "content": "Sheep's milk",
+        "Url": "https://www.tasteatlas.com/telemea-de-ibanesti" ,
+        "img": "./images/cheeses/telemea.jpg"
     },
     {
         "id": 89,
@@ -1062,10 +1062,10 @@
         "lat": 40.93,
         "lng": 14.20,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "It is sometimes aged by hiding a whole lemon inside the cheese, which infuses it with a citrusy scent as it matures",
+        "content": "Pasteurized milk",
+        "Url": "https://www.tasteatlas.com/provola" ,
+        "img": "./images/cheeses/provola.jpg"
     },
     {
         "id": 90,
@@ -1074,10 +1074,10 @@
         "lat": 44.80,
         "lng": 1.62,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "By the 15th century, Rocamadour's popularity was such that peasant farmers were allowed to use these small goat cheese discs to pay their taxes and land rent",
+        "content": "100% whole, raw goat’s milk",
+        "Url": "https://www.tasteatlas.com/rocamadour" ,
+        "img": "./images/cheeses/rocamadour.jpg"
     },
     {
         "id": 91,
@@ -1086,10 +1086,10 @@
         "lat": 45.26,
         "lng": 4.10,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": ""  ,
-        "img": ""
+        "fun": "It is technically a 60% butterfat double-cream cheese, giving it a remarkably smooth, buttery texture compared to traditional blues",
+        "content": "Pasteurised cow's milk",
+        "Url": "https://www.tasteatlas.com/saint-agur"  ,
+        "img": "./images/cheeses/saintAgur.jpg"
     },
     {
         "id": 92,
@@ -1098,10 +1098,10 @@
         "lat": 37.98,
         "lng": 23.74,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Kopanisti translates to 'beaten' or 'whipped' referring to the method where it is hand-kneaded 3-4 times during maturation to distribute the pungent microbial flora",
+        "content": "Raw, whole cow’s, sheep’s, or goat’s milk, or mixtures thereof",
+        "Url": "https://www.tasteatlas.com/kopanisti" ,
+        "img": "./images/cheeses/kopanisti..jpg"
     },
     {
         "id": 93,
@@ -1110,10 +1110,10 @@
         "lat": 41.01,
         "lng": 16.73,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "It has a surprisingly insulting name that literally translates to 'severed head' or 'beheaded' (capa mozza), referencing its unique hanging, pear-like shape. Because of this, calling someone a 'scamorza' in local Italian slang can jokingly mean they are an 'idiot' or have a weak character. ",
+        "content": "Cow's milk, or less commonly from milk of other species",
+        "Url": "https://www.tasteatlas.com/scamorza" ,
+        "img": "./images/cheeses/scamorza.jpg"
     },
     {
         "id": 94,
@@ -1122,10 +1122,10 @@
         "lat": 38.57,
         "lng": -7.91,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "It was once common practice to pay farm workers in the Évora district with this cheese instead of money",
+        "content": "Merina Branca sheep's milk",
+        "Url": "https://www.tasteatlas.com/queijo-de-evora" ,
+        "img": "./images/cheeses/queijoDeÉvora.jpg"
     },
     {
         "id": 95,
@@ -1134,10 +1134,10 @@
         "lat": 38.39,
         "lng": -28.25,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Despite being a small island, this cheese was historically produced only for local, familial consumption",
+        "content": "Cow's milk and coagulated with natural rennet",
+        "Url": "https://www.tasteatlas.com/queijo-do-pico" ,
+        "img": "./images/cheeses/queijoDoPico.jpg"
     },
     {
         "id": 96, 
@@ -1146,10 +1146,10 @@
         "lat": 38.62,
         "lng": -28.04,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "The cheese has a unique, tangy, and spicy, 'bite' that many believe cannot be replicated with modern cultures",
+        "content": "Pasteurized milk from the island's cows",
+        "Url": "https://www.tasteatlas.com/queijo-s-jorge" ,
+        "img": "./images/cheeses/queijoSãoJorge.jpg"
     },
     {
         "id": 97,
@@ -1158,10 +1158,10 @@
         "lat": 39.58,
         "lng": 22.24,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Despite being a staple of Greek cuisine, its name likely stems from a Hebrew word (kashér), and it is believed to have been invented by Jewish residents in Kırkkilise (now Kırklareli, Turkey) in the 19th centur",
+        "content": "Primarily from sheep's milk, often blended with a maximum of 20% goat's milk",
+        "Url": "https://www.tasteatlas.com/kasseri" ,
+        "img": "./images/cheeses/kasseri.jpg"
     },
     {
         "id": 98,
@@ -1170,10 +1170,10 @@
         "lat": 47.28,
         "lng": 1.55,
         "rating":"4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "While it looks intimidating, the edible black layer is actually powdered vegetable charcoal (historically burnt grape vine shoots) that balances the cheese's pH, allowing mold to grow while creating a stark, beautiful contrast with the snow-white paste",
+        "content": "Pasteurized goat's milk",
+        "Url": "https://www.tasteatlas.com/selles-sur-cher" ,
+        "img": "./images/cheeses/selleSurCher.jpg"
     },
     {
         "id": 99,
@@ -1182,9 +1182,45 @@
         "lat": 39.57,
         "lng": -0.51,
         "rating": "4.2",
-        "fun": "",
-        "content": "",
-        "Url": "" ,
-        "img": ""
+        "fun": "Despite being a firm, hard cheese, it boasts a surprisingly complex flavor, described as having hints of nut, grass, and even white chocolate in older versions",
+        "content": "Whole raw milk of Churra and Castilian sheep breeds",
+        "Url": "https://www.tasteatlas.com/queso-zamorano" ,
+        "img": "./images/cheeses/quesoZamorano.jpg"
+    },
+    {
+        "id": 100,
+        "name": "Mori no",
+        "origin":"Matsumoto, Japan",
+        "lat": 36.25,
+        "lng": 137.97,
+        "rating": "N/A",
+        "fun": "The name Mori no means 'forest' in Japanese, and it is crafted to taste like the mountain forests of Nagano where the cows graze",
+        "content": "Milk of grazing Brown Swiss cows",
+        "Url": "https://www.tasteatlas.com/mori-no" ,
+        "img": "./images/cheeses/moriNo.jpg"
+    },
+    {
+        "id": 101,
+        "name": "Sakura",
+        "origin":"Hokkaido, Japan",
+        "lat": 45.41,
+        "lng": 141.57,
+        "rating": "N/A",
+        "fun": "Remarkably, it was the first Japanese cheese to win a gold medal at the Mountain Cheese Olympics in Switzerland, beating traditional European cheeses",
+        "content": "whole, thermised organic Hokkaido cow's milk",
+        "Url": "https://www.tasteatlas.com/sakura" ,
+        "img": "./images/cheeses/saukura.jpg"
+    },
+    {
+        "id": 102,
+        "name": "Colby",
+        "origin":"Colby, United States of America",
+        "lat": 39.39,
+        "lng": -101.05,
+        "rating": "3.4",
+        "fun": "Colby cheese was invented in 1885 by Joseph Steinwand in Colby, Wisconsin, who created it by washing cheddar curds with cold water to reduce acidity",
+        "content": "100% all-natural Canadian cow's milk (pasteurized)",
+        "Url": "hhttps://www.tasteatlas.com/colby-cheese",
+        "img": "./images/cheeses/colby.jpg"
     }
 ]

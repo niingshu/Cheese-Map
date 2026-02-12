@@ -86,7 +86,11 @@ function cheesePanel(chosenCheese) {
     document.getElementById('name').textContent = chosenCheese.name;
 
     document.getElementById('origin').textContent = "Origin: " + chosenCheese.origin;
-    document.getElementById('rating').textContent = "Rating: " + chosenCheese.rating + "/5";
+    if (chosenCheese.rating == "N/A") {
+        document.getElementById('rating').textContent = "Rating: " + chosenCheese.rating;
+    } else {
+        document.getElementById('rating').textContent = "Rating: " + chosenCheese.rating + "/5";
+    }
     document.getElementById('summary').textContent = "Made From: " + chosenCheese.content;
     document.getElementById('fun_fact').textContent = "Fun fact: " + chosenCheese.fun;
     document.getElementById('more').textContent = "Read more about " + chosenCheese.name;
