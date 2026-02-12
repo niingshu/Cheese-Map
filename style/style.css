@@ -7,6 +7,35 @@
   filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
 }
 
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(211, 216, 221);
+    font-family: sans-serif;
+}
+
+.top-bar {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(220, 220, 222);
+}
+
+.on-top {
+    padding: 10px;
+    background: rgb(220, 220, 222);
+    z-index: 1000;
+}
+
+#cheese-world-map {
+    flex: 1;
+    width: 100%;
+}
+
 .map-titles {
     text-align: center;
     color:rgb(17, 37, 55);
@@ -14,7 +43,7 @@
 
 .search {
     position: fixed;
-    top: 16px;
+    top: 25px;
     right: 16px;
     width: 260px;
     z-index: 2000; /*stay above the map*/
@@ -24,7 +53,6 @@
 #searchInput {
     width: 100%;
     padding: 12px 20px;
-    margin-bottom: 10px;
     box-sizing: border-box;
     border-radius: 5px;
 }
@@ -58,21 +86,39 @@ b {
     font-weight: bold;
 }
 
+/*filtering functions*/
+.controls {
+    position: fixed;
+    top: 25px;
+    left: 16px;
+    z-index: 2000;
+    background: rgb(220, 220, 222);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
 /*The sidepanel menu*/
 .sidepanel {
     width: 0;
-    height: calc(100vh - 90px);
+    height: calc(100vh - 106px);
     position: fixed; /*stay in place*/
     z-index: 1000; /*stay on top*/
     top: 0;
     right: 0; /*show the panel on the right*/
-    margin-top: 70px;
+    margin-top: 90px;
     margin-bottom: 70px;
     border-radius: 6px;
     background-color: white; /*black*/
     overflow-x: hidden; /*disable horizontal scroll*/
     overflow-y: scroll;
-    padding: 40px 0px; /*placed content 60px from the top*/
+    padding: 40px 20ox; /*placed content 60px from the top*/
     transition: 0.3s; /*0.3 second transition effect to slide in side panel*/
 }
 
@@ -99,7 +145,7 @@ b {
 
 /* The sidepanel links */
 .sidepanel a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 15px 32px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
@@ -119,7 +165,7 @@ b {
 
 /*display the text within the panel*/
 .sidepanel a, .sidepanel p { 
-    padding: 0px 0px 0px 20px;
+    padding: 0px 10px 3px 20px;
     text-decoration: none;
     font-size: 17px;
     color: #585858;

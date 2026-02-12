@@ -10,54 +10,58 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
      crossorigin=""/>
-    
-    <style> 
-        body {
-            margin: 0;
-            background-color: rgb(211, 216, 221);
-            font-family: sans-serif;
-        }
-
-        #cheese-world-map {
-            position: absolute;
-            top: 70px;
-            bottom: 0;
-            width: 100%;
-        }
-
-    </style>
 
     <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body> 
-    <h1 id="title" class="map-titles">Cheeses of World Map</h1>
+    <div class="on-top">
+        <div class="top-bar">
+            <h1 id="title" class="map-titles">Cheeses of World Map</h1>
+        </div>
 
-    <div class="search">
-        <input type="text" id="searchInput" placeholder="Search for cheese...">
-        <ul id="resultList"></ul>
-    </div>
+            <!--search tool-->
+            <div class="search">
+                <input type="text" id="searchInput" placeholder="Search for cheese...">
+                <ul id="resultList"></ul>
+            </div>
 
-    <!--panel-->
-    <div id="cheeseSidePanel" class="sidepanel"> 
-        <!--resizeable panel-->
-        <div id="resize-bar" class="resize-bar"></div>
+            <!--filtering button and options-->
+            <div class="controls">
+                <button id="filterBtn">Filter Cheese By Categories</button>
+                <select id="categoryFilter">
+                    <option value="all">All Categories</option>
+                    <!--options will be dynamically added here-->
+                </select>
+            </div>
 
-        <a href="javascript:void(0)" id="closebtn" class="closebtn">&times;</a>
+            <!--container where data will be displayed-->
+            <div id="productContainer">
+                <!--data will be inserted here by js-->
+            </div>
 
-        <!-- img at the top -->
-        <img id="cheeseImage" draggable="false" src="" alt="Cheese Image" class="panel-image">
+            <!--panel-->
+            <div id="cheeseSidePanel" class="sidepanel"> 
+                <!--resizeable panel-->
+                <div id="resize-bar" class="resize-bar"></div>
 
-        <p id="name" class="name">Name</p>
-        <p id="origin">Origin</p>
-        <p id="rating">Rating</p>
+                <a href="javascript:void(0)" id="closebtn" class="closebtn">&times;</a>
+
+                <!-- img at the top -->
+                <img id="cheeseImage" draggable="false" src="" alt="Cheese Image" class="panel-image">
+
+                <p id="name" class="name">Name</p>
+                <p id="origin">Origin</p>
+                <p id="rating">Rating</p>
 
 
-        <p id="fun_fact">Fun Fact</p>
-        <p id="summary">Summary</p>
-        <a id="more" href="#" target="_blank">More Information</a>
+                <p id="fun_fact">Fun Fact</p>
+                <p id="summary">Summary</p>
+                <a id="more" href="#" target="_blank">More Information</a>
+            </div>
     </div>
     
+    <!--map-->
     <div id = "cheese-world-map"></div>
 
     <!-- leaflet javascript after leaflet's css-->
@@ -67,6 +71,7 @@
 
     <script type="module" src="js/map.js"></script> <!--js runs as a module-->
     <!--in module variables/functions stay inside file-->
+    <script src="filter.js"></script>
 
 </body>
 
