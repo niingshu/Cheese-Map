@@ -46,7 +46,7 @@ fetch("data/cheeses.json")
 
             var marker = L.marker([cheese.lat, cheese.lng], {icon: cheeseSpot})
                 .addTo(map)
-                .bindTooltip(cheese.name + " (" + cheese.origin + ")");
+                .bindTooltip(cheese.name + " (" + cheese.region + ", " + cheese.country + ")");
             
             cheesesMap.set(cheese.id, marker); //add it into map for every cheese
 
@@ -85,12 +85,20 @@ function cheesePanel(chosenCheese) {
 
     document.getElementById('name').textContent = chosenCheese.name;
 
-    document.getElementById('origin').textContent = "Origin: " + chosenCheese.origin;
+    //origin
+    if (chosenCheese.region == "") {
+        document.getElementById('origin').textContent = "Origin: " + chosenCheese.country;
+    } else {
+        document.getElementById('origin').textContent = "Origin: " + chosenCheese.region + ", " + chosenCheese.country;
+    }
+    
+    //rating
     if (chosenCheese.rating == "N/A") {
         document.getElementById('rating').textContent = "Rating: " + chosenCheese.rating;
     } else {
         document.getElementById('rating').textContent = "Rating: " + chosenCheese.rating + "/5";
     }
+    //here ask if they want to rate and then lead to the backend -> update ratings
     document.getElementById('summary').textContent = "Made From: " + chosenCheese.content;
     document.getElementById('fun_fact').textContent = "Fun fact: " + chosenCheese.fun;
     document.getElementById('more').textContent = "Read more about " + chosenCheese.name;
@@ -224,7 +232,7 @@ document.addEventListener('DOMContentLoaded', () => { //ensures the script runs
         items.forEach(item => {
             const itemDiv = document.createElement('div');
             itemDiv.classList.add('item');
-            itemDiv.innerHTML = `<strong>${item.name}</strong> - Category: ${item.origin}`;
+            itemDiv.innerHTML = `<strong>${item.name}</strong> - Category: ${item.country}`;
             //origin is currently provice + country -> should split these into 2
             productContainer.appendChild(itemDiv);
         });
@@ -233,17 +241,28 @@ document.addEventListener('DOMContentLoaded', () => { //ensures the script runs
     //function to handle the filtering 
     function applyFilter() {
         const selectedCategory = categoryFilter.value; //category in this case is the origin(country)
-        let filteredData = allData; //start with all data fetched from cheeses 
+        let filteredData = allData; //start with all data fetched from cheeses.json
 
-        if (selectedCategory !== 'all') {
-            filteredData = allData.filter(item => item.origin === selectedCategory);
-        }
+        //in js, for each value in map, it would be value, key not key, value
+        cheesesMap.forEach((marker, id) => {
+            const cheese = filteredData.find(item => item.id === id);
 
-        renderItems(filteredData);
+            //case insensitive with html options
+            if (selectedCategory === 'all' || selectedCategory.toLowerCase() === cheese.country.toLowerCase()) {
+                marker.addTo(map);
+                map.flyTo(marker.getLatLng(), 6);
+            } else {
+                map.removeLayer(marker)
+            }
+        });
+
+        //renderItems(filteredData);
     }
 
     //event listener for the filter button 
     filterBtn.addEventListener('click', applyFilter);
+    //event listener for the result shown 
+    categoryFilter.addEventListener('change', applyFilter);
 })
 
 
