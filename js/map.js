@@ -86,18 +86,15 @@ function cheesePanel(chosenCheese) {
     document.getElementById('name').textContent = chosenCheese.name;
 
     //origin
-    if (chosenCheese.region == "") {
-        document.getElementById('origin').textContent = "Origin: " + chosenCheese.country;
-    } else {
-        document.getElementById('origin').textContent = "Origin: " + chosenCheese.region + ", " + chosenCheese.country;
-    }
+    const reg = (chosenCheese.region === "") ? "" : chosenCheese.region + ", ";
+    document.getElementById('origin').textContent = 
+    "Origin: " + reg + chosenCheese.country;
+    
     
     //rating
-    if (chosenCheese.rating == "N/A") {
-        document.getElementById('rating').textContent = "Rating: " + chosenCheese.rating;
-    } else {
-        document.getElementById('rating').textContent = "Rating: " + chosenCheese.rating + "/5";
-    }
+    const outOfFive = (chosenCheese.rating == "N/A") ? "" : "/5";
+    document.getElementById('rating').textContent = "Rating: " + chosenCheese.rating + outOfFive;
+    
     //here ask if they want to rate and then lead to the backend -> update ratings
     document.getElementById('summary').textContent = "Made From: " + chosenCheese.content;
     document.getElementById('fun_fact').textContent = "Fun fact: " + chosenCheese.fun;
@@ -149,6 +146,14 @@ searchInput.addEventListener('input', (e) => {
     //clear result every time use types
     resultsList.innerHTML = ''; 
 
+    //reset dropdown to all 
+    categoryFilter.value = 'all';
+    cheesesMap.forEach((marker) => {
+        if (!map.hasLayer(marker)) {
+            marker.addTo(map);
+        }
+    });
+
     if (query.length === 0) return;
     //preventing regex error
     const escapeQuery = query1.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -161,6 +166,7 @@ searchInput.addEventListener('input', (e) => {
     );
 
     displayData(filteredData, regex);
+    
 });
 
 //function to fetch json data
